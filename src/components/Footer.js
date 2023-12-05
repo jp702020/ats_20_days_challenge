@@ -2,10 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Terms of Service</p>
-      <p>Privacy Policy</p>
-    </footer>
+    <>
+      <footer className="footer footer-expand-lg bg-body-tertiary">
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+      </footer>
+    </>
   );
 };
 
