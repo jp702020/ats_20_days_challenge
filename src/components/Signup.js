@@ -83,7 +83,9 @@ const Signup = () => {
             placeholder="Select Guide"
           />
           <p>Forget password?</p>
-          <button className="login-button">Register</button>
+          <button className="login-button" onClick={submit}>
+            Register
+          </button>
         </form>
         <p className="social-login">Or Register with</p>
         <div className="social-link">
