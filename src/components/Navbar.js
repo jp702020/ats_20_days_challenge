@@ -1,10 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav>
+        <ul className="sidebar">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contect</a>
+          </li>
+        </ul>
+      </nav>
+
+      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             ATS20Day
@@ -34,7 +49,7 @@ const header = () => {
             </div>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };

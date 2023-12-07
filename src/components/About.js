@@ -1,8 +1,8 @@
 import React from "react";
-import Signup from "./Signup";
+import "./About.css";
 
 function About() {
-  return <Signup />;
+  return <></>;
 }
 
 export default About;
