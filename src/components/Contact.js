@@ -1,9 +1,10 @@
 import React from "react";
+import CardScreen from "./CardScreen";
 
 const Contact = () => {
   return (
     <div>
-      <h2>contact</h2>
+      <CardScreen />
     </div>
   );
 };

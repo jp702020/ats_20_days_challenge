@@ -1,0 +1,43 @@
+div .container {
+  margin: auto;
+  padding: 0px 10px;
+  width: 375px;
+  height: 100%;
+  border: double 1px transparent;
+  border-radius: 7px;
+  background-image: linear-gradient(black, black),
+    linear-gradient(to right, #c11efc, #518ef8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.most_search {
+  margin: auto;
+  width: 310px;
+  height: 30vh;
+  background-color: #fff;
+}
+.container .infuencers {
+  color: white;
+  /* width: 348px; */
+  height: 30vh;
+  background-color: black;
+  font-size: medium;
+}
+.infue_card {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+}
+.infue_card::-webkit-scrollbar {
+  display: none;
+}
+.explore {
+  color: white;
+  width: 375px;
+  height: 30vh;
+}
+.exp_card {
+  display: flex;
+  flex-direction: row;
+}

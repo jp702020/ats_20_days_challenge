@@ -1,0 +1,37 @@
+.inf_container {
+  margin: 7px;
+  width: 120px;
+  height: 22vh;
+  background-color: white;
+  border: double 1px transparent;
+  border-radius: 7px;
+  border-bottom: 3px solid #c11efc;
+}
+.inf_container div img {
+  margin: 8px 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  padding: 1px;
+  border-right: 3px solid #c11efc;
+  border-bottom: 3px solid #c11efc;
+  border-top: 3px solid #c11efc;
+  border-left: 3px solid transparent;
+}
+.inf_container div div h5 {
+  color: #000;
+  font-size: 10px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.inf_container div div h6 {
+  font-size: 7px;
+  color: blue;
+  text-align: center;
+}
+.inf_container div div p {
+  font-size: 5px;
+  text-align: center;
+  color: #000;
+}

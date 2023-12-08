@@ -1,1 +1,1 @@
-for signup page click on rigister now on end of page
+foe today task go in /contact

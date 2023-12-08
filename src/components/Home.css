@@ -59,29 +59,7 @@
   margin-top: 30px;
   width: 150px;
 }
-.nav {
-  margin: 10px;
-  height: 50px;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: space-between;
-}
-.nav img {
-  width: 35px;
-  height: 35px;
-  margin-left: 5px;
-}
-.nav_btn {
-  border: none;
-  background: none;
-  font-weight: 700;
-  margin-top: 5px;
-}
 
-.nav_div1 {
-  display: flex;
-  justify-content: space-evenly;
-}
 .get_code_box {
   margin: 20px;
   border-radius: 11px;

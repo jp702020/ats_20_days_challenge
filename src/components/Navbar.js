@@ -1,12 +1,62 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logo from "../assets/storeCode.png";
 
 const header = () => {
   return (
     <>
       <nav>
-        <ul className="sidebar">
+        <div className="nav">
+          <div className="nav_div1">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                className="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+              </svg>
+            </div>
+
+            <div>
+              <img src={logo} alt="logo" />
+            </div>
+          </div>
+
+          <div className="nav_div1">
+            <div>
+              <button className="nav_btn">
+                <Link
+                  style={{
+                    textDecoration: "none",
+                    color: "rgba(135, 207, 235, 0.725);",
+                  }}
+                  to={"/login"}
+                >
+                  Login
+                </Link>
+              </button>
+            </div>
+            <div>
+              <button className="nav_btn">
+                <Link
+                  style={{ textDecoration: "none", color: "red" }}
+                  to={"/signup"}
+                >
+                  Register
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        {/* <ul className="sidebar">
           <li>
             <a href="#">Home</a>
           </li>
@@ -16,40 +66,8 @@ const header = () => {
           <li>
             <a href="#">Contect</a>
           </li>
-        </ul>
+        </ul> */}
       </nav>
-
-      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            ATS20Day
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <Link className="nav-link active" aria-current="page" to="/">
-                Home
-              </Link>
-              <Link className="nav-link " to="/about">
-                About us
-              </Link>
-              <Link className="nav-link" to="/contact">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav> */}
     </>
   );
 };
