@@ -1,0 +1,42 @@
+.card_sec {
+  display: flex;
+}
+.test {
+  width: 325px;
+  height: 39vh;
+  margin: 10px auto;
+  align-items: center;
+  background-image: linear-gradient(to top, #5951f8, #fc1e6c);
+  border-radius: 12px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+.test_card {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  margin: 0 5px;
+}
+.test_card img {
+  width: 30px;
+  height: 30px;
+}
+.name {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.quote {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+.test_text {
+  font-size: 6px;
+  width: 90px;
+  height: 20px;
+}
