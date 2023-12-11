@@ -1,0 +1,133 @@
+.profile_cotainer {
+  margin: auto;
+  width: 375px;
+  background-color: #005bf9;
+}
+.upper_sec {
+  width: 325px;
+  height: 150px;
+  margin: auto;
+  border-bottom-right-radius: 60px;
+  background-image: linear-gradient(to right, #518ef8, #c11efc);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.upper_sec i {
+  font-weight: bold;
+  color: #fff;
+}
+.mid_sec {
+  margin: -120px 25px;
+  width: 270px;
+  height: 200px;
+  background-color: #eceaea;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: -50px;
+  position: absolute;
+}
+.upper_div {
+  display: flex;
+  flex-direction: column;
+}
+.name_pic {
+  display: flex;
+  justify-content: space-between;
+}
+.name_pic h6 {
+  margin: 20px;
+  font-weight: bold;
+}
+.name_pic i {
+  margin-top: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  margin: 0px 20px;
+}
+.info div {
+  margin: 0px 10px;
+}
+.profil_pic {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #518ef8;
+  border: 5px solid #c11efc;
+}
+.profil_pic img {
+  margin: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fff;
+}
+.bio {
+  margin: 3px;
+  font-size: 8px;
+}
+.bio p {
+  margin: 0px;
+}
+.lower_sec {
+  width: 325px;
+  height: 300px;
+  background-color: #fff;
+  margin: -70px 25px;
+  padding-top: 150px;
+}
+.cat_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: 600;
+}
+.categories ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  /* align-items: start; */
+}
+.list_items {
+  /* max-width: 40px; */
+  width: 40px;
+  margin: 8px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #eceaea;
+  text-align: center;
+}
+.list_items img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.inf_grid {
+  margin: 70px auto;
+  width: 375px;
+  background-color: #eceaea;
+}
+.grid_div {
+  width: 325px;
+  height: 400px;
+  margin: 25px;
+  padding-top: 20px;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+}
+
+.grid_div img {
+  width: 100px;
+  height: 150px;
+  border-radius: 20px;
+}

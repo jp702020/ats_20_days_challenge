@@ -1,1 +1,1 @@
-foe today task go in /contact
+go in /profile and /travel for both pages
