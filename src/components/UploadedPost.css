@@ -1,0 +1,58 @@
+.post_container {
+  margin: auto;
+  width: 375px;
+  height: 100vh;
+  background-color: #ffffff;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.post_upper {
+  width: 325px;
+  border-color: 1px solid blue;
+}
+.video {
+  border-radius: 15px 0px 0px 15px;
+  width: 325px;
+  height: 200px;
+  margin: 0 25px;
+  background-color: #fff;
+  box-shadow: 0px 0px 0px 4px rgba(205, 199, 199, 0.3);
+}
+
+.post_lower {
+  margin: auto;
+  width: 325px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.post_card {
+  width: 140px;
+  height: fit-content;
+  margin: 8px;
+  border-radius: 11px;
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.post_card img {
+  width: 140px;
+  height: 150px;
+  border-radius: 11px;
+}
+.post_card p {
+  color: #000;
+  margin: 0px;
+  font-weight: 10px;
+}
+.code_card {
+  margin: 10px 0px 10px 20px;
+  padding: 10px;
+  width: 140px;
+  height: 100px;
+  color: black;
+  border-radius: 11px;
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
+  background-color: pink;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}

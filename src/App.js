@@ -8,6 +8,7 @@ import Login from "./components/Login";
 import ExpPro from "./components/ExpPro";
 import Profile from "./components/ProfileProduct";
 import Travel from "./components/TravelGuide";
+import UploadedPost from "./components/UploadedPost.js";
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path="/expPro" Component={ExpPro}></Route>
           <Route exact path="/profile" Component={Profile}></Route>
           <Route exact path="/travel" Component={Travel}></Route>
+          <Route exact path="/uploaded_post" Component={UploadedPost}></Route>
         </Routes>
       </Router>
     </>
