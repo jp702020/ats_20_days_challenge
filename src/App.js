@@ -10,6 +10,7 @@ import Profile from "./components/ProfileProduct";
 import Travel from "./components/TravelGuide";
 import UploadedPost from "./components/UploadedPost.js";
 import OpenPost from "./components/OpenPost.js";
+import ManagePost from "./components/ManagePost.js";
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
           <Route exact path="/travel" Component={Travel}></Route>
           <Route exact path="/uploaded_post" Component={UploadedPost}></Route>
           <Route exact path="/open_post" Component={OpenPost}></Route>
+          <Route exact path="/manage_post" Component={ManagePost}></Route>
         </Routes>
       </Router>
     </>
