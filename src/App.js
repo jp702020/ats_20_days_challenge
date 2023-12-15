@@ -11,6 +11,9 @@ import Travel from "./components/TravelGuide";
 import UploadedPost from "./components/UploadedPost.js";
 import OpenPost from "./components/OpenPost.js";
 import ManagePost from "./components/ManagePost.js";
+import TravelGDashboard from "./components/TravelGDashboard.js";
+import AddTravel from "./components/AddTravel.js";
+
 const App = () => {
   return (
     <>
@@ -27,6 +30,12 @@ const App = () => {
           <Route exact path="/uploaded_post" Component={UploadedPost}></Route>
           <Route exact path="/open_post" Component={OpenPost}></Route>
           <Route exact path="/manage_post" Component={ManagePost}></Route>
+          <Route
+            exact
+            path="/travel_g_dashboard"
+            Component={TravelGDashboard}
+          ></Route>
+          <Route exact path="/add_travel" Component={AddTravel}></Route>
         </Routes>
       </Router>
     </>

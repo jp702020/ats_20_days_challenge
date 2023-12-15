@@ -1,0 +1,17 @@
+.add_travel_container {
+  width: 375px;
+  margin: auto;
+}
+.day_1 input {
+  width: 365px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+.day_1 button {
+  width: 40%;
+  margin: 5px 10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}

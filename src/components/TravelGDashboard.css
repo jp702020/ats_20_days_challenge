@@ -1,0 +1,73 @@
+.travel_dashboard_cotainer {
+  width: 385px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+.travel_dashboard_cotainer button {
+  margin: 10px auto;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  width: 365px;
+  height: 30px;
+  font-weight: 600;
+}
+.travel_dashboard_cotainer h6 {
+  margin-top: 10px;
+}
+.travel_dashboard_cotainer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: double 2px black;
+  margin-left: 40%;
+}
+.profile_icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-bottom: -20px;
+  margin-left: -10px;
+  background-color: #fff;
+}
+.info_sec input {
+  width: 365px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+::placeholder {
+  color: grey;
+  opacity: 0.5;
+  font-size: small;
+}
+.info_sec p {
+  margin: 0px;
+  font-weight: 600;
+  font-size: small;
+}
+.name_edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  margin-right: 10px;
+}
+table {
+  width: 365px;
+  border: 0.5px solid black;
+  border-collapse: separate !important;
+  border-spacing: 0px;
+  border-radius: 6px;
+  text-align: center;
+}
+table th {
+  color: blue;
+  font-weight: 400;
+}
+table th,
+table td {
+  border: 0.5px solid black;
+  /* border-collapse: collapse; */
+}
