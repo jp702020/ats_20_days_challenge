@@ -1,6 +1,6 @@
 import React from "react";
 import "./UploadedPost.css";
-import video from "../assets/video.webm";
+// import video from "../assets/video.webm";
 import photo from "../assets/travelInfl.jpg";
 
 const UploadedPost = () => {
@@ -9,7 +9,7 @@ const UploadedPost = () => {
       <div className="post_container">
         <div className="post_upper">
           <video className="video" controls>
-            <source src={video}></source>
+            <source src={""}></source>
           </video>
         </div>
         <div className="post_lower">
