@@ -1,0 +1,121 @@
+.product_guide_container {
+  width: 305px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(4, 31, 74, 0.997) 75%,
+    rgba(255, 0, 127, 0.5) 100%
+  );
+}
+.prouct_guide_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.prouct_guide_nav h5 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #ff007f;
+}
+.prouct_guide_nav h5 span {
+  color: #0047ab;
+}
+.prouct_guide_nav i {
+  font-size: 25px;
+  color: #ff007f;
+  margin: 0 10px;
+}
+.search_div input {
+  margin: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 8px;
+}
+.search_div i {
+  color: #fff;
+  margin: 20px;
+  font-size: 20px;
+}
+.category {
+  display: flex;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.category p {
+  margin: 5px;
+  font-size: 10px;
+  padding: 0 10px;
+  border: 1px #ff007f solid;
+  border-radius: 50px;
+  color: #fff;
+}
+.product_guide_cards .card {
+  width: 90%;
+  margin: auto;
+  height: 33vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 11px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border: 1px solid #fff;
+  margin: 10px;
+}
+.product_guide_right img {
+  width: 90px;
+  height: 90%;
+  margin: 7px;
+  border-radius: 7px;
+}
+.product_guide_right i {
+  position: absolute;
+  margin-left: -60px;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 20px;
+}
+.product_guide_left {
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.product_guide_left p {
+  margin: 2px;
+}
+.watch {
+  padding: 0 2px;
+  margin: auto;
+  display: flex;
+  border: 1px solid #fff;
+  width: fit-content;
+  font-weight: normal;
+  border-radius: 6px;
+}
+.watch i {
+  font-size: 12px;
+}
+.view_storecode {
+  padding: 1px 3px;
+  margin: auto;
+  display: flex;
+  width: fit-content;
+  font-weight: normal;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #ff007f;
+}
+.view_storecode i {
+  font-size: 12px;
+}
+.product_img_div img {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin: 0 2px;
+  width: 20px;
+  height: 20px;
+}
