@@ -1,0 +1,174 @@
+.product_g_profile_container {
+  width: 305px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(4, 31, 74, 0.997) 75%,
+    rgba(255, 0, 127, 0.5) 100%
+  );
+}
+.profile_card {
+  width: 95%;
+  height: 130px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 128, 0.734) 20%,
+    rgb(0, 71, 171) 100%
+  );
+  display: flex;
+}
+.p_g_p_left {
+  width: 30%;
+  text-align: center;
+}
+.p_g_p_left img {
+  width: 70px;
+  height: 70px;
+  margin-left: 12px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.p_g_p_left p {
+  color: #ababab;
+  background-color: rgb(44, 44, 44);
+  width: 100px;
+  margin-top: -5px;
+  position: relative;
+  font-size: 11px;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 0, 128, 0.734);
+}
+.p_g_p_left p span {
+  color: #fff;
+  font-weight: 200;
+}
+.p_g_p_left div {
+  display: flex;
+}
+.p_g_p_left_icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 13px;
+  padding: 0;
+  color: #ffffff96;
+  background-color: rgba(4, 31, 74, 0.883);
+  margin: -10px 10px;
+}
+.p_g_p_left i {
+  font-size: 10px;
+  margin: auto;
+}
+.p_g_p_right {
+  color: #fff;
+  width: 70%;
+  padding: 8px 15px;
+  margin: 0px 15px;
+  font-size: 10px;
+}
+.p_g_p_right h6 {
+  margin: 0;
+}
+.p_g_p_right p {
+  margin: 2px;
+  padding: 0;
+}
+.p_g_p_right_connect {
+  font-size: 7px;
+}
+.p_g_p_right_social {
+  display: flex;
+}
+.p_g_p_right_follow {
+  font-weight: bold;
+  font-size: 12px;
+  width: 70px;
+}
+.p_g_p_right_youtube {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 7px;
+  padding: 4px 6px;
+  margin: 3px;
+}
+.p_g_p_right_youtube i {
+  font-size: 12px;
+}
+.p_g_p_right_instagram {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 0, 128, 0.734);
+  border-radius: 7px;
+  padding: 4px 6px;
+  margin: 3px;
+}
+.p_g_p_right_instagram i {
+  font-size: 12px;
+}
+.swipe_container {
+  display: flex;
+  margin-left: 50px;
+  font-size: 8px;
+}
+.swipe_container p {
+  margin-right: 0px;
+}
+.swipe_container i {
+  color: #fff;
+  margin-top: 3px;
+  margin-left: 0px;
+}
+.p_g_p_cards_sec {
+  margin: auto;
+  width: 95%;
+  height: 70%;
+  padding: 10px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p_g_p_card_upper {
+  margin: 3px;
+}
+.p_g_p_card_upper img {
+  width: 80px;
+  height: 80px;
+  border-radius: 11px;
+  border: 2px solid #fff;
+}
+.p_g_p_card_upper_reel_i {
+  width: 14px;
+  height: 14px;
+  background-color: rgba(255, 0, 128, 0.734);
+  border-radius: 3px;
+  padding: 1px 3px;
+  position: absolute;
+  margin-top: -75px;
+  margin-left: 60px;
+}
+.p_g_p_card_upper_reel_i i {
+  font-size: 8px;
+  color: #fff;
+  position: absolute;
+  margin: 0px;
+}
+.p_g_p_card_lower {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  text-align: center;
+  margin: 8px 3px;
+}
+.p_g_p_card_lower p {
+  font-size: 7px;
+  margin: 2px 0px;
+  font-weight: bold;
+  color: #fff;
+}

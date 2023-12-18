@@ -14,6 +14,8 @@ import ManagePost from "./components/ManagePost.js";
 import TravelGDashboard from "./components/TravelGDashboard.js";
 import AddTravel from "./components/AddTravel.js";
 import ProductGuide from "./components/ProductGuide.js";
+import productGProfile from "./components/productGProfile.js";
+import TravelGProfile from "./components/TravelGProfile.js";
 
 const App = () => {
   return (
@@ -32,6 +34,16 @@ const App = () => {
           <Route exact path="/open_post" Component={OpenPost}></Route>
           <Route exact path="/manage_post" Component={ManagePost}></Route>
           <Route exact path="/product_guide" Component={ProductGuide}></Route>
+          <Route
+            exact
+            path="/product_g_profile"
+            Component={productGProfile}
+          ></Route>
+          <Route
+            exact
+            path="/travel_g_profile"
+            Component={TravelGProfile}
+          ></Route>
           <Route
             exact
             path="/travel_g_dashboard"
