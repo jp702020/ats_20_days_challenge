@@ -16,6 +16,7 @@ import AddTravel from "./components/AddTravel.js";
 import ProductGuide from "./components/ProductGuide.js";
 import productGProfile from "./components/productGProfile.js";
 import TravelGProfile from "./components/TravelGProfile.js";
+import TravelGPost from "./components/TravelGPost.js";
 
 const App = () => {
   return (
@@ -34,6 +35,11 @@ const App = () => {
           <Route exact path="/open_post" Component={OpenPost}></Route>
           <Route exact path="/manage_post" Component={ManagePost}></Route>
           <Route exact path="/product_guide" Component={ProductGuide}></Route>
+          <Route
+            exact
+            path="/travel_guide_post"
+            Component={TravelGPost}
+          ></Route>
           <Route
             exact
             path="/product_g_profile"
